@@ -1,0 +1,202 @@
+@media (width>1439px) {
+  @media (width>767px) {
+    header {
+      width: 736px;
+      height: 241px;
+      position: relative;
+    }
+
+    .firstline {
+      width: 736px;
+    }
+
+    .mono {
+      margin-left: 502px;
+      gap: 16px;
+    }
+
+    .rect,
+    .btnsection {
+      margin-left: 26px;
+    }
+
+    .secondline {
+      margin-top: 52px;
+      width: 736px;
+      height: 64px;
+      gap: 445px;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 18px;
+    }
+
+    .thirdline {
+      width: 737px;
+      height: 107px;
+      gap: 390px;
+      margin-top: 52px;
+    }
+
+    .txt {
+      width: 256px;
+    }
+
+    .thirdline h2 {
+      width: 256px;
+      font-size: 64px;
+    }
+
+    h3 {
+      font-size: 24px;
+    }
+
+    .play {
+      width: 75px;
+      height: 75px;
+    }
+
+    .midline {
+      width: 736px;
+      gap: 32px;
+      margin-top: 140px;
+    }
+
+    .midline h2 {
+      font-size: 24px;
+    }
+
+    .rect2 {
+      width: 625px;
+    }
+
+    main {
+      width: 688px;
+    }
+
+    h4 {
+      left: -326px;
+      font-size: 20px;
+      margin-top: 44px;
+    }
+
+    p,
+    .txtline,
+    h6 {
+      width: 736px;
+      font-size: 18px;
+    }
+
+    .lasttxt {
+      margin-top: 41px;
+      margin-left: -22px;
+      gap: 40px;
+    }
+
+    .mid2 {
+      margin-top: 43px;
+      margin-left: -20px;
+    }
+
+    footer {
+      width: 736px;
+      margin-bottom: 124px;
+      height: 38px;
+      position: relative;
+      left: 5px;
+    }
+
+    .lastdiv {
+      flex-direction: row;
+      align-items: center;
+      gap: 25px;
+    }
+
+    .tengo {
+      margin-top: 25px;
+    }
+
+    .loop {
+      margin-top: 0;
+      margin-left: 50px;
+    }
+
+    .endtxt h4 {
+      left: -18px;
+    }
+
+    .hide {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      top: -200px;
+      justify-content: center;
+      align-items: center;
+      width: 183px;
+      height: 152px;
+      border-radius: 16px;
+      background: var(--FFFFFF, #fff);
+      box-shadow: 0px 5px 30px 0px rgba(0, 0, 0, 0.1);
+      position: absolute;
+      left: 450px;
+      color: var(--A445ED, #a445ed);
+      text-align: right;
+      font-family: "Lora";
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 24px;
+    }
+
+    .exit {
+      top: 60px;
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      left: 150px;
+      top: 15px;
+    }
+
+    .exit:hover {
+      cursor: pointer;
+      transform: translate(1.2);
+    }
+
+    .arrow,
+    .m11,
+    .m12,
+    .m13:hover {
+      cursor: pointer;
+    }
+  }
+
+  .show {
+    transform: translatey(170%);
+    transition: all 2s;
+  }
+
+  .show1 {
+    transform: translatey(-180%);
+    transition: all 2s;
+  }
+
+  .brgr {
+    background: var(--1F1F1F, #1f1f1f);
+    box-shadow: 0px 5px 30px 0px #a445ed;
+  }
+
+  .txts {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+
+  .exit {
+    top: 60px;
+    left: 70px;
+    width: 40px;
+    height: 40px;
+  }
+}

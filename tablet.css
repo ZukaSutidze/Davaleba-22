@@ -1,0 +1,108 @@
+@media (width>767px){
+    header{
+        width: 689px;
+        height: 241px;
+        margin-top: 50px;
+    }
+    .firstline{
+        width: 689px;
+    }
+    .mono{
+        margin-left: 458px;
+        gap: 18px;
+    }
+    .rect,.btnsection{
+        margin-left: 26px;
+    }
+    .secondline{
+        margin-top: 52px;
+        width: 689px;
+        gap: 445px;
+    }
+    h1{
+        font-size: 18px;
+    }
+    .oval:hover{
+cursor: pointer;
+    }
+    .thirdline{
+        width: 689px;
+        height: 107px;
+        gap: 358px;
+        margin-top: 50px;
+    }
+    .txt{
+        width: 256px;
+    }
+    .thirdline h2{
+        width: 256px;
+        font-size: 64px;
+    }
+    h3{
+        font-size: 24px;
+    }
+    .play{
+        width: 75px;
+        height: 75px;
+       
+    }
+    .play:hover{
+        /* background-color: red; */
+        transition: 1s;
+        transform: scale(1.1);
+        cursor: pointer;
+        outline: none;
+
+    }
+    .midline{
+        width: 689px;
+        gap: 32px;
+        margin-top: 120px;
+    }
+    .midline h2{
+        font-size: 24px;
+    }
+    .rect2{
+        width: 608px;
+    
+    }
+    main{
+        width: 736px;
+    }
+    h4{
+        left: -310px;
+        font-size: 20px;
+        margin-top: 44px;
+    }
+    p,.txtline,h6{
+        width: 641px;
+        font-size: 18px;
+    }
+    .lasttxt{
+        margin-top: 41px;
+    }
+    .mid2{
+        margin-top: 43px;
+        margin-left: -1px;
+    }
+    footer{
+        width: 688px;
+        margin-bottom: 117px;
+        height: 38px;
+    }
+    .lastdiv{
+        flex-direction: row;
+        align-items: center;
+        gap: 25px;
+    }
+    .zuka{
+        margin-top: 25px;
+    }
+    .inp1dark{
+        background: var(--1F1F1F, #1F1F1F);
+    color: white;
+    }
+    .hide{
+   left: 470px;
+    }
+}
